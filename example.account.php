@@ -1,7 +1,7 @@
 <?php
 require 'gapi.class.php';
 
-$ga = new gapi("XXXXXXXX@developer.gserviceaccount.com", "key.p12");
+$ga = new gapi("candideapp@gmail.com", "candideapp-02c5e99bca08.p12");
 
 $ga->requestAccountData();
 

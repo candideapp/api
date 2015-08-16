@@ -2,7 +2,7 @@
 require 'gapi.class.php';
 define('ga_profile_id','your profile id');
 
-$ga = new gapi("XXXXXXXX@developer.gserviceaccount.com", "key.p12");
+$ga = new gapi("candideapp@gmail.com", "candideapp-02c5e99bca08.p12");
 
 /**
  * Note: OR || operators are calculated first, before AND &&.
